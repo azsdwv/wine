@@ -1,4 +1,4 @@
-*{padding: 0;margin: 0;border: 0;font-family:'Noto Serif Display', serif; color:#fff;}
+*{padding: 0;margin: 0;border: 0;font-family:'Noto Serif', serif; color:#fff;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -28,24 +28,25 @@ body{
     width: 100%;
 }
 h1{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 97px;
     line-height: 136%;
     text-align: right;
 }
 h2{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 87px;
     line-height: 118px;
+    margin-bottom: 35px;
 }
 h3{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 48px;
     line-height: 145%;
     margin-bottom: 30px;
 }
 .offer_text{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 32px;
     line-height: 145%;
      text-align: right;
@@ -64,7 +65,6 @@ h3{
 a{
     font-weight: 600;
     font-size: 20px;
-    line-height: 145%
 }
 .offer{
     display: flex;
@@ -74,12 +74,10 @@ a{
     margin-top: 200px;
 }
 .about p{
-    font-weight: 500;
     font-size: 32px;
     line-height: 145%;
 }
 .about span{
-    font-weight: 600;
     margin-top: 40px;
     font-size: 2.1rem;
     margin-bottom: -40px;
@@ -102,9 +100,14 @@ button{
     background: #A70202;
     margin-top: 30px;
     padding: 11.5px 0;
-    font-weight: 500;
     font-size: 24px;
     line-height: 145%;
+}
+button:hover{
+    background: #d10000;
+    padding: 9.5px 0;
+    border: 2px solid #535353;
+    box-shadow: inset 0px 20px 35px rgba(0, 0, 0, 0.28);
 }
 .catalog,
 .contacts,
@@ -116,7 +119,6 @@ footer{
     text-align: right;
 }
 .contact-list{
-    font-weight: 500;
     font-size: 32px;
     line-height: 145%;
 }
@@ -126,39 +128,37 @@ footer{
 .flex{
     display: flex;
     justify-content: space-between;
+}
+.ai{
     align-items: center;
 }
 input{
     display: block;
-    margin-bottom: 30px;
+    margin-top: 30px;
     padding: 22px 15px;
     width: 540px;
 }
 input::placeholder{
-    font-weight: 500;
     font-size: 20px;
     line-height: 145%;
     color: #616161;
 }
 footer{
     background: #303030;
-    font-weight: 500;
     font-size: 15px;
     line-height: 145%;
     
 }
 footer a{
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 145%;  
+    font-weight: ;
+    font-size: 15px;  
 }
 footer li{
     margin-bottom: 30px;
 }   
 .name{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 40px;
-    line-height: 145%;
     padding: 177px 0;
     margin-right: 90px;
 }
@@ -167,7 +167,6 @@ footer li{
     height: 200px;
     display: flex;
     flex-direction: column-reverse;
-    font-weight: 500;
     font-size: 15px;
     line-height: 145%;
     text-align: right;
@@ -177,4 +176,10 @@ footer li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.nav-list li:hover,
+.footer-list li:hover{
+    border-top: 2px solid #D9D9D9;
+    transition: .1s;
+    border-bottom: 2px solid #D9D9D9;
 }
