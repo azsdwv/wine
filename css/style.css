@@ -134,6 +134,8 @@ input{
     margin-top: 30px;
     padding: 22px 15px;
     width: 100%;
+    color: #222;
+    font-size: 15px;
 }
 input::placeholder{
     font-size: 20px;
@@ -246,6 +248,7 @@ footer li{
     }
     h2{
         font-size: 64px;
+        text-align: center;
     }
     h3{
         font-size: 32px;
@@ -341,7 +344,7 @@ footer li{
 @media screen and (max-width:768px){
     .card-bigger img,
     .card-bigger button{
-        width: 80%;
+        width: 90%;
         display: block;
         margin: 0 auto;
         
@@ -363,11 +366,19 @@ footer li{
     .name{
         margin-right: 20px;
     }
+    h1{
+        font-size: 64px;
+    }
     h2,
     .fs64{
         font-size: 56px;
     }
     
+}
+@media screen and (max-width:675px){
+    .offer_img img{
+        top:25px;
+    }
 }
 /*burger*/
 .burger.active{
