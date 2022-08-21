@@ -19,3 +19,13 @@ for (let smoothLink of smoothLinks) {
         });
     });
 };
+
+
+let menu = document.querySelector('.burger')
+let list = document.querySelector('.nav-list')
+
+
+menu.addEventListener('click', () => {
+    menu.classList.toggle('active')
+    list.classList.toggle('active')
+})
